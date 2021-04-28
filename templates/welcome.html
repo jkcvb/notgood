@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> welcome </title>
+</head>
+<body>
+
+{% for i in img %}
+<img src="{{MEDIA_URL}}{{i.goodsimg}}" alt="{{MEDIA_URL}}{{i.goodsimg}}">
+
+{% endfor %}
+</body>
+</html>
